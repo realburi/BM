@@ -1,0 +1,6 @@
+read -p "title name: " n
+
+git add * --verbose
+git commit -m "$n" --verbose
+git push --verbose
+
